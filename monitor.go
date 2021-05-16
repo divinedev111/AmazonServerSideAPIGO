@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/go-resty/resty/v2"
@@ -18,8 +19,8 @@ import (
 
 func monitor() error {
 	var products map[string]interface{}
+	//f, err := os.Open("test.json")
 	f, err := os.Open("test.json")
-	// f, err := os.Open("amazonsks.json")
 	if err != nil {
 		return err
 	}
@@ -75,7 +76,7 @@ func monitor() error {
 						"upgrade-insecure-requests": "1",
 					}).
 					SetDoNotParseResponse(true).
-					Get("https://www.amazon.com/ortal-migration/aod?asin=" + asin)
+					Get("https://www.amazon.com/portal-migration/aod?asin=" + asin)
 
 				doc, err := goquery.NewDocumentFromReader(resp.RawBody())
 				if err != nil {
@@ -88,22 +89,21 @@ func monitor() error {
 				log.Println(asin, resp.Status(), title)
 
 				var offerID string
-				doc.Find(".a-fixedright-grid-col").Each(func(i int, s *goquery.Selection) {
+				data := SendData{}
+				doc.Find(".a-fixed-right-grid-col").Each(func(i int, s *goquery.Selection) {
 					price, _ := s.Find(".a-button-input").Attr("aria-label")
-					stock := strings.Contains(price, "Add to Cart from selle Amazon.com")
+					stock := strings.Contains(price, "Add to Cart from seller Amazon.com")
 					if stock == true {
 						offerID, _ = s.Find("input[name='offeringID.1']").Attr("value")
-						testStruct := SendData{
-							SKU:     asin,
-							OfferID: offerID,
-							Price:   price,
-						}
-						broadcast.Send(testStruct)
+						data.OfferID = offerID
+						data.SKU = asin
+						data.Price = price
 						return
 					}
 				})
+				broadcast.Send(data)
 				fmt.Println(offerID)
-				// time.Sleep(time.Mllisecond * time.Duration(2000))
+				time.Sleep(time.Millisecond * time.Duration(2000))
 			}
 		}(asin)
 	}

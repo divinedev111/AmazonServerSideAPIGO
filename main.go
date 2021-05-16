@@ -28,6 +28,7 @@ type Broadcaster struct {
 }
 
 func (b *Broadcaster) Send(data SendData) {
+	fmt.Println("sending")
 	b.mu.Lock()
 	for _, ch := range b.chans {
 		ch <- data
