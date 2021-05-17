@@ -78,7 +78,7 @@ func test() {
 				"upgrade-insecure-requests": "1",
 			}).
 			SetDoNotParseResponse(true).
-			Get("https://www.amazon.com/portal-migration/aod?asin=B08P3ZN62G")
+			Get("https://ok54crjodozxdxppjctwis33ha-b25orc35okxta-www-amazon-com.translate.goog/portal-migration/aod?asin=B08WM28PVH")
 
 		doc, err := goquery.NewDocumentFromReader(resp.RawBody())
 		if err != nil {

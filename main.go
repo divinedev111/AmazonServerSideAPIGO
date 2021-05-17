@@ -158,6 +158,6 @@ func main() {
 	go monitor()
 
 	http.HandleFunc("/amazon", AzClient)
-	log.Println("listening on 8081")
-	log.Fatal(http.ListenAndServe("localhost:8081", nil))
+	log.Println("listening on 8082")
+	log.Fatal(http.ListenAndServe("localhost:8082", nil))
 }
