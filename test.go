@@ -12,6 +12,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -192,6 +193,8 @@ func NewTransportWithConfig(ja3 string, config *tls.Config) (*http.Transport, er
 	return &http.Transport{DialTLS: dialtls}, nil
 }
 
+var mu sync.Mutex
+
 // stringToSpec creates a ClientHelloSpec based on a JA3 string
 func stringToSpec(ja3 string) (*tls.ClientHelloSpec, error) {
 	tokens := strings.Split(ja3, ",")
@@ -217,7 +220,9 @@ func stringToSpec(ja3 string) (*tls.ClientHelloSpec, error) {
 		}
 		targetCurves = append(targetCurves, tls.CurveID(cid))
 	}
+	mu.Lock()
 	extMap["10"] = &tls.SupportedCurvesExtension{targetCurves}
+	mu.Unlock()
 
 	// parse point formats
 	var targetPointFormats []byte
@@ -228,12 +233,16 @@ func stringToSpec(ja3 string) (*tls.ClientHelloSpec, error) {
 		}
 		targetPointFormats = append(targetPointFormats, byte(pid))
 	}
+	mu.Lock()
 	extMap["11"] = &tls.SupportedPointsExtension{SupportedPoints: targetPointFormats}
+	mu.Unlock()
 
 	// build extenions list
 	var exts []tls.TLSExtension
 	for _, e := range extensions {
+		mu.Lock()
 		te, ok := extMap[e]
+		mu.Unlock()
 		if !ok {
 			return nil, ErrExtensionNotExist(e)
 		}
@@ -388,7 +397,9 @@ func (s *httpProxy) Dial(network, addr string) (net.Conn, error) {
 	resp, err := http.ReadResponse(bufio.NewReader(c), req)
 	if err != nil {
 		// TODO close resp body ?
-		resp.Body.Close()
+		if resp != nil {
+			resp.Body.Close()
+		}
 		c.Close()
 		return nil, err
 	}

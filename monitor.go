@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"math/rand"
+	"net/http"
 	"net/url"
 	"os"
 	"strings"
@@ -19,7 +19,7 @@ import (
 
 func monitor() error {
 	var products map[string]interface{}
-	//f, err := os.Open("test.json")
+	//f, err := os.Open("amazonskus.json")
 	f, err := os.Open("test.json")
 	if err != nil {
 		return err
@@ -35,11 +35,10 @@ func monitor() error {
 
 	for asin, _ := range products {
 		go func(asin string) {
-			client := resty.New()
 			config := tls.Config{InsecureSkipVerify: true}
 
 			for {
-				prox := pxyList[rand.Intn(len(pxyList))]
+				prox := pxyList[rand.Intn(len(pxyList)-1)]
 				splitproxy := strings.Split(prox, ":")
 
 				pURL, _ := url.Parse("http://" + splitproxy[2] + ":" + splitproxy[3] + "@" + splitproxy[0] + ":" + splitproxy[1])
@@ -53,10 +52,10 @@ func monitor() error {
 				if err != nil {
 					log.Println(err)
 					continue
-
 				}
 
-				client.SetTransport(trans)
+				c := http.Client{Transport: trans}
+				client := resty.NewWithClient(&c)
 
 				resp, err := client.R().
 					EnableTrace().
@@ -78,10 +77,14 @@ func monitor() error {
 					SetDoNotParseResponse(true).
 					Get("https://www.amazon.com/portal-migration/aod?asin=" + asin)
 
-				doc, err := goquery.NewDocumentFromReader(resp.RawBody())
-				if err != nil {
-					log.Println(err)
-					continue
+				var doc *goquery.Document
+				if resp != nil {
+					doc, err = goquery.NewDocumentFromReader(resp.RawBody())
+					if err != nil {
+						log.Println(err)
+						continue
+					}
+					resp.RawBody().Close()
 				}
 
 				title := doc.Find("title").Text()
@@ -90,6 +93,7 @@ func monitor() error {
 
 				var offerID string
 				data := SendData{}
+				var found bool = false
 				doc.Find(".a-fixed-right-grid-col").Each(func(i int, s *goquery.Selection) {
 					price, _ := s.Find(".a-button-input").Attr("aria-label")
 					stock := strings.Contains(price, "Add to Cart from seller Amazon.com")
@@ -98,11 +102,14 @@ func monitor() error {
 						data.OfferID = offerID
 						data.SKU = asin
 						data.Price = price
+						found = true
 						return
 					}
 				})
-				broadcast.Send(data)
-				fmt.Println(offerID)
+				if found {
+					broadcast.Send(data)
+				}
+				//fmt.Println(offerID)
 				time.Sleep(time.Millisecond * time.Duration(2000))
 			}
 		}(asin)
