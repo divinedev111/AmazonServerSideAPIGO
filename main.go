@@ -55,8 +55,6 @@ var broadcast Broadcaster
 var upgrader = websocket.Upgrader{}
 
 func AzClient(w http.ResponseWriter, r *http.Request) {
-	upgrader.CheckOrigin = func(r *http.Request) bool { return true }
-
 	c, err := upgrader.Upgrade(w, r, nil)
 	if err != nil {
 		log.Println(err)
@@ -85,6 +83,11 @@ func AzClient(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
+}
+
+func home(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "working")
+	return
 }
 
 func monitorold(asin string) *string {
@@ -142,6 +145,15 @@ type Proxy struct {
 
 var pxyList []string
 
+func getPort() string {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+		log.Printf("Defaulting to port %s", port)
+	}
+	return port
+}
+
 func main() {
 	Init()
 	f, err := os.Open("proxy.txt")
@@ -155,9 +167,12 @@ func main() {
 		pxyList = append(pxyList, scanner.Text())
 	}
 
+	port := getPort()
+
 	go monitor()
 
+	http.HandleFunc("/", home)
 	http.HandleFunc("/amazon", AzClient)
-	log.Println("listening on 8082")
-	log.Fatal(http.ListenAndServe("localhost:8082", nil))
+	log.Println("listening on ", port)
+	log.Fatal(http.ListenAndServe((":" + port), nil))
 }

@@ -1,0 +1,6 @@
+runtime: go
+env: flex
+
+handlers:
+- url: /.*
+  script: auto

@@ -104,6 +104,7 @@ func monitor() error {
 					}
 				})
 				if found {
+					log.Println("FOUND: ", products[asin])
 					broadcast.Send(data)
 				}
 				//fmt.Println(offerID)
