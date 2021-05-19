@@ -1,137 +1,159 @@
 {
-    "B08WM28PVH":{
-       "product_name": "RTX 3060 EVGA XC Gaming"
-    },
-    "B08WGTL4CW":{
-        "product_name": "RTX 3060 Asus ROG Strix OC"
-     },
-     "B08WHJPBFX":{
-        "product_name": "RTX 3060 Asus TUF OC"
-     },
-     "B08W8DGK3X":{
-        "product_name": "RTX 3060 ZOTAC Gaming Geforce"
-     },
-     "B08X4V8N5Q":{
-        "product_name": "GIGABYTE GeForce RTX 3060"
-     },
-     "B08WPJ5P4R":{
-        "product_name": "RTX 3060 MSI Gaming X"
-     },
-     "B08WT47L8B":{
-        "product_name": "RTX 3060 MSI Gaming GeForce RTX"
-     },
-     "B08X4VJ6SB":{
-        "product_name": "GIGABYTE GeForce RTX 3060 Vision OC 12G Graphics Card"
-     },
-     "B08WPRMVWB":{
-        "product_name": "MSI Gaming GeForce RTX 3060"
-     },
+  "B08WM28PVH": {
+    "product_name": "RTX 3060 EVGA XC Gaming"
+  },
+  "B08WGTL4CW": {
+    "product_name": "RTX 3060 Asus ROG Strix OC"
+  },
+  "B08WHJPBFX": {
+    "product_name": "RTX 3060 Asus TUF OC"
+  },
+  "B08W8DGK3X": {
+    "product_name": "RTX 3060 ZOTAC Gaming Geforce"
+  },
+  "B08X4V8N5Q": {
+    "product_name": "GIGABYTE GeForce RTX 3060"
+  },
+  "B08WPJ5P4R": {
+    "product_name": "RTX 3060 MSI Gaming X"
+  },
+  "B08WT47L8B": {
+    "product_name": "RTX 3060 MSI Gaming GeForce RTX"
+  },
+  "B08X4VJ6SB": {
+    "product_name": "GIGABYTE GeForce RTX 3060 Vision OC 12G Graphics Card"
+  },
+  "B08WPRMVWB": {
+    "product_name": "MSI Gaming GeForce RTX 3060"
+  },
 
 
 
-     "B08L8L71SM":{
-        "product_name": "RTX 3070 EVGA XC3 Ultra"
-     },
-     "B08L8LG4M3":{
-        "product_name": "RTX 3070 Asus Dual OC"
-     },
-     "B08L8JNTXQ":{
-        "product_name": "RTX 3070 Asus ROG Strix"
-     },
-     "B08L8KC1J7":{
-        "product_name": "RTX 3070 Asus TUF OC"
-     },
-     "B08LF1CWT2":{
-        "product_name": "RTX 3070 Zotac Twin Edge OC"
-     },
-     "B08L8L9TCZ":{
-        "product_name": "RTX 3070 EVGA FTW3 Ultra"
-     },
-     "B08M14Y3C7":{
-        "product_name": "GIGABYTE AORUS GeForce RTX 3070"
-     },
-     "B08KWN2LZG":{
-        "product_name": "MSI Gaming GeForce RTX 3070 8GB"
-     },
-     "B08M13DXSZ":{
-        "product_name": "GIGABYTE GeForce RTX 3070"
-     },
-     "B08MT6B58K":{
-        "product_name": "ASUS KO NVIDIA GeForce RTX 3070"
-     },
-     "B08KWPDXJZ":{
-        "product_name": "MSI Gaming GeForce RTX 3070"
-     },
-     "B08KY266MG":{
-        "product_name": "Gigabyte GeForce RTX 3070 Gaming"
-     },
-     "B08LF32LJ6":{
-        "product_name": "ZOTAC GAMING GeForce RTX 3070"
-     },
-     "B08LW46GH2":{
-        "product_name": "RTX 3070 EVGA XC3 Black"
-     },
-     "B08R15HVJ3":{
-        "product_name": "RTX 3070 Asus ROG Strix White"
-     },
+  "B08L8L71SM": {
+    "product_name": "RTX 3070 EVGA XC3 Ultra"
+  },
+  "B08L8LG4M3": {
+    "product_name": "RTX 3070 Asus Dual OC"
+  },
+  "B08L8JNTXQ": {
+    "product_name": "RTX 3070 Asus ROG Strix"
+  },
+  "B08L8KC1J7": {
+    "product_name": "RTX 3070 Asus TUF OC"
+  },
+  "B08LF1CWT2": {
+    "product_name": "RTX 3070 Zotac Twin Edge OC"
+  },
+  "B08L8L9TCZ": {
+    "product_name": "RTX 3070 EVGA FTW3 Ultra"
+  },
+  "B08M14Y3C7": {
+    "product_name": "GIGABYTE AORUS GeForce RTX 3070"
+  },
+  "B08KWN2LZG": {
+    "product_name": "MSI Gaming GeForce RTX 3070 8GB"
+  },
+  "B08M13DXSZ": {
+    "product_name": "GIGABYTE GeForce RTX 3070"
+  },
+  "B08MT6B58K": {
+    "product_name": "ASUS KO NVIDIA GeForce RTX 3070"
+  },
+  "B08KWPDXJZ": {
+    "product_name": "MSI Gaming GeForce RTX 3070"
+  },
+  "B08KY266MG": {
+    "product_name": "Gigabyte GeForce RTX 3070 Gaming"
+  },
+  "B08LF32LJ6": {
+    "product_name": "ZOTAC GAMING GeForce RTX 3070"
+  },
+  "B08LW46GH2": {
+    "product_name": "RTX 3070 EVGA XC3 Black"
+  },
+  "B08R15HVJ3": {
+    "product_name": "RTX 3070 Asus ROG Strix White"
+  },
+
+  "B083Z5P6TX": {
+    "product_name": "RTX 3060ti Asus TUF OC"
+  },
+  "B08P2H5LW2": {
+    "product_name": "RTX 3060ti EVGA FTW3 Ultra"
+  },
+  "B08P2HBBLX": {
+    "product_name": "RTX 3060ti Asus Dual OC"
+  },
+  "B08P3V572B": {
+    "product_name": "RTX 3060ti Zotac Twin Edge OC"
+  },
 
 
 
+  "B08HR3Y5GQ": {
+    "product_name": "RTX 3080 EVGA FTW3"
+  },
+  "B08HH5WF97": {
+    "product_name": "RTX 3080 Asus TUF"
+  },
+  "B08HR6FMF3": {
+    "product_name": "EVGA 10G-P5-3881-KR GeForce RTX 3080"
+  },
+  "B08HR5SXPS": {
+    "product_name": "MSI Gaming GeForce RTX 3080 10GB"
+  },
+  "B08HR55YB5": {
+    "product_name": "EVGA 10G-P5-3885-KR GeForce RTX 3080 XC3 ULTRA GAMING, 10GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate"
+  },
+  "B08HBTJMLJ": {
+    "product_name": "PNY GeForce RTX 3080 10GB XLR8 Gaming UPRISING EPIC-X RGB Triple Fan Graphics Card"
+  },
+  "B08KGZVKXM": {
+    "product_name": "GIGABYTE GeForce RTX 3080 Vision OC 10G Graphics Card, 3X WINDFORCE Fans, 10GB 320-bit GDDR6X, GV-N3080VISION OC-10GD Video Card"
+  },
+  "B08HR7SV3M": {
+    "product_name": "MSI Gaming GeForce RTX 3080 10GB GDRR6X 320-Bit HDMI/DP Nvlink Tri-Frozr 2 Ampere Architecture OC Graphics Card (RTX 3080 GAMING X TRIO 10G)"
+  },
+  "B08TX5GHGN": {
+    "product_name": "AORUS RTX 3080 Gaming Box External Graphics Card, WATERFORCE All-in-one Cooling System, Thunderbolt 3, GV-N3080IXEB-10GD"
+  },
+  "B083GT4CY2": {
+    "product_name": "GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080AORUSX WB-10GD Video Card"
+  },
 
 
-     "B083Z5P6TX":{
-        "product_name": "RTX 3060ti Asus TUF OC"
-     },
-     "B08P2H5LW2":{
-        "product_name": "RTX 3060ti EVGA FTW3 Ultra"
-     },
-     "B08P2HBBLX":{
-        "product_name": "RTX 3060ti Asus Dual OC"
-     },
-     "B08P3V572B":{
-        "product_name": "RTX 3060ti Zotac Twin Edge OC"
-     },
 
+  "B08J5F3G18": {
+    "product_name": "EVGA RTX 3090 FTW3 ULTRA GAMING"
+  },
+  "B08HJQ182D": {
+    "product_name": "Zotac Gaming RTX 3090 Trinity"
+  },
+  "B08J61SS5R": {
+    "product_name": "EVGA 24G-P5-3975-KR RTX 3090 XC3"
+  },
+  "B083GS45CR": {
+    "product_name": "Gigabyte Geforce RTX 3090 Vision"
+  },
+  "B08HJRF2CN": {
+    "product_name": "Gigabyte RTX 3090 Gaming OC 3X windforce"
+  },
+  "B08KTWVHQP": {
+    "product_name": "Gigabyte AORUS RTX 3090 Xtreme"
+  },
+  "B08HRBW6VB": {
+    "product_name": "MSI gaming RTX 3090 Tri-Frozer"
+  },
+  "B08NNKHVP3": {
+    "product_name": "MSI gaming RTX 3090 Ventus 3X"
+  },
 
-     
-     "B08HR3Y5GQ":{
-        "product_name": "RTX 3080 EVGA FTW3"
-     },
-     "B08HH5WF97":{
-        "product_name": "RTX 3080 Asus TUF"
-     },
-     "B08HR6FMF3":{
-        "product_name": "EVGA 10G-P5-3881-KR GeForce RTX 3080"
-     },
-     "B08HR5SXPS":{
-        "product_name": "MSI Gaming GeForce RTX 3080 10GB"
-     },
-     "B08HR55YB5":{
-        "product_name": "EVGA 10G-P5-3885-KR GeForce RTX 3080 XC3 ULTRA GAMING, 10GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate"
-     },
-     "B08HBTJMLJ":{
-        "product_name": "PNY GeForce RTX 3080 10GB XLR8 Gaming UPRISING EPIC-X RGB Triple Fan Graphics Card"
-     },
-     "B08KGZVKXM":{
-        "product_name": "GIGABYTE GeForce RTX 3080 Vision OC 10G Graphics Card, 3X WINDFORCE Fans, 10GB 320-bit GDDR6X, GV-N3080VISION OC-10GD Video Card"
-     },
-     "B08HR7SV3M":{
-        "product_name": "MSI Gaming GeForce RTX 3080 10GB GDRR6X 320-Bit HDMI/DP Nvlink Tri-Frozr 2 Ampere Architecture OC Graphics Card (RTX 3080 GAMING X TRIO 10G)"
-     },
-     "B08TX5GHGN":{
-        "product_name": "AORUS RTX 3080 Gaming Box External Graphics Card, WATERFORCE All-in-one Cooling System, Thunderbolt 3, GV-N3080IXEB-10GD"
-     },
-     "B083GT4CY2":{
-        "product_name": "GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080AORUSX WB-10GD Video Card"
-     },
-     
-     
-     
-     
-     "B08164VTWH":{
-        "product_name": "AM Ryzen 5900x"
-     },
-     "B08PS2F9RD":{
-        "product_name": "Pokemon TCG: Shining Fates Elite Trainer Box"
-     }
- }
+  
+
+  "B08164VTWH": {
+    "product_name": "AM Ryzen 5900x"
+  },
+  "B08PS2F9RD": {
+    "product_name": "Pokemon TCG: Shining Fates Elite Trainer Box"
+  }
+}

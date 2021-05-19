@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
+	"math/rand"
 	"net/http"
 	"net/url"
 	"os"
@@ -44,6 +45,8 @@ func monitor() error {
 				i = (i + 1) % len(pxyList)
 				pxyParts := strings.Split(prox, ":")
 
+				link := links[rand.Intn(len(links))]
+
 				//pURL, _ := url.Parse("http://" + splitproxy[2] + ":" + splitproxy[3] + "@" + splitproxy[0] + ":" + splitproxy[1])
 				//p, err := FromURL(pURL, proxy.Direct)
 				//if err != nil {
@@ -67,10 +70,11 @@ func monitor() error {
 
 				resp, err := client.R().
 					SetDoNotParseResponse(true).
-					Get("https://ok54crjodozxdxppjctwis33ha-b25orc35okxta-www-amazon-com.translate.goog/portal-migration/aod?asin=" + asin)
+					Get(link + asin)
 
 				if err != nil {
 					log.Println(err)
+					time.Sleep(time.Millisecond * time.Duration(500))
 					continue
 				}
 
@@ -104,6 +108,7 @@ func monitor() error {
 					}
 				})
 				if found {
+					fileLog.Println("FOUND: ", products[asin])
 					log.Println("FOUND: ", products[asin])
 					broadcast.Send(data)
 				}
