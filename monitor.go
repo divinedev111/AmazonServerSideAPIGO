@@ -33,11 +33,33 @@ func monitor() error {
 
 	x := 0
 
+	params := []string{
+		"pldnSite=1",
+		"m=ATVPDKIKX0DER",
+		"pinnedofferhash=",
+		"qid=1616277707",
+		"sourcecustomerorglistid=",
+		"sr=1-2-spons",
+		"pc=dp",
+		"smid=",
+	}
+
 	for asin, _ := range products {
 		i := (len(pxyList) / len(products) * x)
 		x++
 		go func(asin string, i int) {
-			client := resty.New()
+			c1 := resty.New()
+			c2 := resty.New()
+			c3 := resty.New()
+			c4 := resty.New()
+			c5 := resty.New()
+			clients := []*resty.Client{
+				c1,
+				c2,
+				c3,
+				c4,
+				c5,
+			}
 			//config := tls.Config{InsecureSkipVerify: true}
 
 			for {
@@ -60,6 +82,8 @@ func monitor() error {
 				//	continue
 				//}
 
+				client := clients[rand.Intn(len(clients))]
+
 				client.SetTransport(&http.Transport{
 					Proxy: http.ProxyURL(&url.URL{
 						Scheme: "http",
@@ -70,7 +94,7 @@ func monitor() error {
 
 				resp, err := client.R().
 					SetDoNotParseResponse(true).
-					Get(link + asin)
+					Get(link + asin + "&" + params[rand.Intn(len(params))] + "&" + params[rand.Intn(len(params))])
 
 				if err != nil {
 					log.Println(err)
