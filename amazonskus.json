@@ -1,159 +1,217 @@
-{
-  "B08WM28PVH": {
+[
+  {
+    "asin": "B08WM28PVH",
+    "offer_id": "Xag%2FIB9%2BE8ud9di%2Bt%2FEQzg59GEsuUAKVnsYpw4IbDijRs3eps1dJWKlxDXqFkA4kVEHKMfNfjm9Ik8bHxEi9kdeaYz%2BbWnJJ1pNqV9NwNYgMvFcnFKkQKtodmpELAm3n7AkGC%2FZOOjtdy2OASQoLrw%3D%3D",
     "product_name": "RTX 3060 EVGA XC Gaming"
   },
-  "B08WGTL4CW": {
+  {
+    "asin": "B08WGTL4CW",
+    "offer_id": "c4XXIFKY05InyzVtJn%2FTVkne3X2wKduczt06xtBWQIcQgwCYGOCGK7keU5DCb0ylm0eWc8srJcPkf0MufS6Vn6tTkERUukzHMaCHSuug7mSnaYhRWiAagg%3D%3D",
     "product_name": "RTX 3060 Asus ROG Strix OC"
   },
-  "B08WHJPBFX": {
-    "product_name": "RTX 3060 Asus TUF OC"
-  },
-  "B08W8DGK3X": {
-    "product_name": "RTX 3060 ZOTAC Gaming Geforce"
-  },
-  "B08X4V8N5Q": {
+  {
+    "asin": "B08X4V8N5Q",
+    "offer_id": "PUw928%2BBtkVwr3w6dvbpDbdagRuu5xzcyWuYYcbL2KsoZR%2B6TBSmAEEg%2BP3u1UaTgpFJLkeE7%2FKZjGYGq29nB%2B%2Bit0sCyd5ev4t8yyW%2FCz9ArYgCDj9AWFHKcrPwvapJvztngEIdf5Vf8xg7kJgnlQ%3D%3D",
     "product_name": "GIGABYTE GeForce RTX 3060"
   },
-  "B08WPJ5P4R": {
+  {
+    "asin": "B08WPJ5P4R",
+    "offer_id": "QW0ICQqguj%2BK0P7Fj8s60jHV8mJYSbArHKgeNJAebB7isFExBnL9rvkApOLfW%2BczmzF%2BEIq316KRt0hlss3Fb%2BRypZ2%2BgeXTd%2FQmz39dCUD07LVnvc3alzbHMwzsmyHBYD1%2FrK3qLArvlH4KL0h%2BHw%3D%3D",
     "product_name": "RTX 3060 MSI Gaming X"
   },
-  "B08WT47L8B": {
+  {
+    "asin": "B08WT47L8B",
+    "offer_id": "xY%2Fmu9XtqttRfD9dGAPPRLWiwq1mNA0yz9t%2FKnqdF29ChJ68E2uBMWoV3h1I7ZTY3NVLgEqp6hyjwqwNcwMY33Mbd67JcyrHgEfVVESL2xDq6xqvDdCYlyx8FzJrfoTKFG%2FOP27CdGb7s0mQJqC%2FXg%3D%3D",
     "product_name": "RTX 3060 MSI Gaming GeForce RTX"
   },
-  "B08X4VJ6SB": {
+  {
+    "asin": "B08X4VJ6SB",
+    "offer_id": "EBkobjIHrkhVmYvJ6FFke5YCyWVimmEQ4IgbByjaUJCxnRvGbuRdp1cL5WoKH%2BpKdgpkvu8%2BhY1csvkNRYe6fEfXgd%2Fj9i5rEH9gadqjZrDIgGoH%2BJIckIu9VIhqES7LQM%2Fnv%2Bv8z9KDE2cvFyH%2BcQ%3D%3D",
     "product_name": "GIGABYTE GeForce RTX 3060 Vision OC 12G Graphics Card"
   },
-  "B08WPRMVWB": {
+  {
+    "asin": "B08WPRMVWB",
+    "offer_id": "Anm0HbOGJ%2FGZnwjSZzvubgg3KIVfaVC%2BDza4Nd8B8n%2BgCFKcicd2futf3td46HFVKUdRtqwHOyDE%2Fp%2BNojQXkPl4zqC7k95MSi9qDkO0fGbZ6kZIFZVak2CsxNricLxDxNMW32I5JdLe75Qf7HRbhA%3D%3D",
     "product_name": "MSI Gaming GeForce RTX 3060"
   },
 
-
-
-  "B08L8L71SM": {
+  {
+    "asin": "B08L8L71SM",
+    "offer_id": "h3Ev3ISBO7y9JBwu%2BwnxUCLlStSOQWJIAtS7JuMK3WOmFOuQzVSpD3HrK5%2FsC28cOSyFwosJru2%2F1OmnsdnSj8iGln28woRERTdC0p4JLRpZmTREp7r%2Fsom9%2BSOWCEEEqcKk426JaRqBwdhFFYvaFQ%3D%3D",
     "product_name": "RTX 3070 EVGA XC3 Ultra"
   },
-  "B08L8LG4M3": {
+  {
+    "asin": "B08L8LG4M3",
+    "offer_id": "XxPFA2X73me9%2BD6uuisgJFQy1KGmyOndrdObETZCZkWQPWi18SvUKztmJhCHyRkIiptvUuUKhB6JxrztDyvJ18T45kQroVgbaRQIYdTl%2FZ5MtMLH%2FliEKVKoGiC%2BSvbTdvcpCcFvfGN7b5Lve7Px1A%3D%3D",
     "product_name": "RTX 3070 Asus Dual OC"
   },
-  "B08L8JNTXQ": {
+  {
+    "asin": "B08L8JNTXQ",
+    "offer_id": "VRB2sRZ024xpRG2pKxMJL1ySDJ2JgSuCNBWaZVo5WhTBajXnRrAns66MWPI5K4uo1j7e3tRpWeife5DkObM9%2B%2Fz051yZQ3b468MP4DIonS9LwRFnDPju0vZcSrNvJh%2B6BxzL6DWn97nsX7DEEhtuxA%3D%3D",
     "product_name": "RTX 3070 Asus ROG Strix"
   },
-  "B08L8KC1J7": {
+  {
+    "asin": "B08L8KC1J7",
+    "offer_id": "fUOdbFSsKoXK3AhUhaC2b9w9tm2n1vJW9C%2BsTsw7VkMB%2BNecqV75cOvojGCE6Qd68hoZfzzZvc5HyoJhKPTFEbQBj1nsErtXg0SmfN6sdtp93KBEw95a8k1Xz2NoRQkjttv%2BNcPHeg%2BL3QcltrCnXQ%3D%3D",
     "product_name": "RTX 3070 Asus TUF OC"
   },
-  "B08LF1CWT2": {
+  {
+    "asin": "B08LF1CWT2",
+    "offer_id": "7cseLMwNXY8pE%2FBKaPRfnwBleN2gH6E5Jvi9CgYCl0v6fWyPkiDpSWZkek7oFPKtHRCmyM%2Bg4BS%2FU7WMIjQ9F%2FOloYRhY%2BHJJ7SJlnqSoDGLfaCowind%2BKS5g%2BDVdZlaLYJoR52F6EkhPfLhI%2FcZ4w%3D%3D",
     "product_name": "RTX 3070 Zotac Twin Edge OC"
   },
-  "B08L8L9TCZ": {
+  {
+    "asin": "B08L8L9TCZ",
+    "offer_id": "vAR8eShYrTjDrMRnDxgNfSMksqYp6w3adIFdcpwoi8Z%2Bz5%2F9VkhyFu1MLAajKBJfYtOka%2BS0h%2FLnmS%2BOJKaRe2AWPOV0yKGKi%2FMyXsvhkKe6cbEcoKrqz4141l0fQC%2FPITQxtqqyvqV%2BCEwB354xJw%3D%3D",
     "product_name": "RTX 3070 EVGA FTW3 Ultra"
   },
-  "B08M14Y3C7": {
+  {
+    "asin": "B08M14Y3C7",
+    "offer_id": "LwDBtqXGScFEDzSdouOclQ3ywurYsVxV%2FjI89QEYf2Nnj2KLixSfdY%2BipcySSsxNvltIriZnfWLh7MsV96pGvHTxEYMaJiPa3LyAnhvdtCjkBCupPHKUEA%3D%3D",
     "product_name": "GIGABYTE AORUS GeForce RTX 3070"
   },
-  "B08KWN2LZG": {
-    "product_name": "MSI Gaming GeForce RTX 3070 8GB"
-  },
-  "B08M13DXSZ": {
-    "product_name": "GIGABYTE GeForce RTX 3070"
-  },
-  "B08MT6B58K": {
+  {
+    "asin": "B08MT6B58K",
+    "offer_id": "veG4MrrovvhZjiVAwhOPGftNMVaox0otDMckFmqiwTJSCyLTpP0pQ%2FGY4smzvmGK3Sj6LzqU9SPt1hkMsZWNjgBGKd%2FMv8EF8vwRcNrx4uRyDCGvQzCYAYxOb9pjKQihO9N85Rmlg5%2BpaRoW%2F4mP2w%3D%3D",
     "product_name": "ASUS KO NVIDIA GeForce RTX 3070"
   },
-  "B08KWPDXJZ": {
+  {
+    "asin": "B08KWPDXJZ",
+    "offer_id": "kht3v9arfScbcNFyqPQkibchQzssMHAQWcm4gU%2BEdKiaNXRQB8ZCQsSL933kgc49PI9L%2B9tcAKobnsayTzYkfOUgseh08l77hjOfhRUCA2pxz1Sj%2B0%2FJK3zPe42GJReA5gfHPt743MyUBL6e%2BrNJ7Q%3D%3D",
     "product_name": "MSI Gaming GeForce RTX 3070"
   },
-  "B08KY266MG": {
+  {
+    "asin": "B08KY266MG",
+    "offer_id": "y3R1UdH251cREqi83DvayyqeRMzELG2W6NBWm7JQplCsJQQ3aoYZmbYoFs7wchAJkSHvTjYme89beUs3JY8WKg79XhDTex65fAGH8qlgbv1LcUHBx3CqY7G1OHuSrpfs91bO8jekMTjqrMCTtO0G7g%3D%3D",
     "product_name": "Gigabyte GeForce RTX 3070 Gaming"
   },
-  "B08LF32LJ6": {
+  {
+    "asin": "B08LF32LJ6",
+    "offer_id": "5svwWFDG4GGLdDmb4r3yPuMaKZrEyGcLkl9mTdAuL0OZ3IpMYccnNCci15K6cWQY%2F5NXgnUiCFWx%2Fvu%2Bwbjm9LOfEjJFXEG7nLt9x%2FJ3dkmCrEg2A0gpc3RaL96BmO43HCPHG28z1qc9R2Kltxz2oQ%3D%3D",
     "product_name": "ZOTAC GAMING GeForce RTX 3070"
   },
-  "B08LW46GH2": {
+  {
+    "asin": "B08LW46GH2",
+    "offer_id": "C8Ij6uS4TrSKS3eRP7VrGHYBE5A6hwrcXsHN%2FhcojZEbimB8z6gh9TQtCMqFs6SQZr9noI2baGOeB9JPuBz4yJ6efEPf2eZZtasSG2fxI8H5bpeXoeNJEh1H4ffaZdqgGUGJU2ObU%2FICBH9FNVNmsQ%3D%3D",
     "product_name": "RTX 3070 EVGA XC3 Black"
   },
-  "B08R15HVJ3": {
+  {
+    "asin": "B08R15HVJ3",
+    "offer_id": "1FwOFrOoT0g%2BfJAzaKvJEUwQUFMKNPOUMSZfNFKG1sBwYPKMdDK5qZ0Q2isHgJNhW5TPV4uu%2BHVmhhk0eR9aKtO8%2BCNR6HkeUIrnOfLHDy29%2FG%2BbsRNftKLUiVP6sZNhMOuekr6ecwvubNZZRzwZmA%3D%3D",
     "product_name": "RTX 3070 Asus ROG Strix White"
   },
 
-  "B083Z5P6TX": {
+  {
+    "asin": "B096TZHXYN",
+    "offer_id": "aqvXnj8Wza3Q13dDdNnVGL0kI2Eyej3iatFr1TjUpIweBCOwIU5OSuez%2Fp%2F%2FTC%2BXMKko%2BnmlzqsMLUYKV62Kxyf4NwGwCaWJMW5U2K7oih2ZtdsP6iqA6KSD%2FU0%2BwY7FuU2LTzv6YCqb75g6B%2BpBcQ%3D%3D",
+    "product_name": "ZOTAC Gaming GeForce RTX 3070 Ti Trinity 8GB GDDR6X 256-bit 19 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Spectra 2.0 RGB Lighting, ZT-A30710D-10P"
+  },
+
+  {
+    "asin": "B083Z5P6TX",
+    "offer_id": "oYahjGzq21KwKwbhV2y63uHR60vd2Lrkgx%2Fi5skPzzHv3nKGZPiAaI5J9qzYJD3cS0Bs%2B2Cfv%2FFGyXoYQ%2Fe5QnS8qhoDbux9JZzyYQOMz7rrdCgdtTyDzI%2BwTXoZyMfm8qUD67b3Lu1xB1JkaonweA%3D%3D",
     "product_name": "RTX 3060ti Asus TUF OC"
   },
-  "B08P2H5LW2": {
+  {
+    "asin": "B08P2H5LW2",
+    "offer_id": "JnpEoMNiud5C47ukTOO9ss77iVST3gpjAZSdRfHJlxdnNbe7NXeMyg34YjUnMHhtPhJf9f4fHoTw%2FMXh5NZh2Muc%2FftOD8STxnnUmfFl%2FWdeeNQK%2BXsT3j4LLbXrx00hypphlsQy2fryUrNOg5qLOQ%3D%3D",
     "product_name": "RTX 3060ti EVGA FTW3 Ultra"
   },
-  "B08P2HBBLX": {
+  {
+    "asin": "B08P2HBBLX",
+    "offer_id": "nsgPuR5KVzJXeT7%2F9ioPcRgviSXRDgY2NatMX%2BcBrLaitow1dYnOsF5BBHNzMr0wklkgRkERJV7OSS3HEKXnbGiatOA7skSABlyfpOkURT6KXJq%2FsA%2FNMnrzJyYwROP%2BY%2BJkQLCfUkazL3BJi3P7IuECS5uTfb%2FgoOv2lDZ%2F%2BbnfMfYNHknmDeSep4GZL5de",
     "product_name": "RTX 3060ti Asus Dual OC"
   },
-  "B08P3V572B": {
+  {
+    "asin": "B08P3V572B",
+    "offer_id": "5R7pYQcmWnn3M5sS4eY2qrH%2B6%2FQeAHGgd%2FN3YB5q64i5sqYqdSS83kwMeeplydC1Sk1%2FaCXdg%2FdPik%2BhMz36wGsUupadH%2B3WuMhwVggf0swsWc70v5Ynlg%3D%3D",
     "product_name": "RTX 3060ti Zotac Twin Edge OC"
   },
 
-
-
-  "B08HR3Y5GQ": {
+  {
+    "asin": "B08HR3Y5GQ",
+    "offer_id": "ohNy%2BAVuNhMb%2B6HL7QbKwcgWXJIN%2FUBRBWiKYMITmI2ARzOivFgfkEy%2BXT2awpXi3DfzWQZDy7dsWssb0dQXCue71BZAk4eiZxpdpOWnOC%2B%2BvgZvxCeImQ%3D%3D",
     "product_name": "RTX 3080 EVGA FTW3"
   },
-  "B08HH5WF97": {
+  {
+    "asin": "B08HH5WF97",
+    "offer_id": "0wPBPNYHLGi4Dt%2BjEC9tYFJjpr5XmXnJwY7LgzZHWK%2FjzICOEPQl8mQNnbJ%2FqqBkvgIOf%2B717WsuB3Ewu0k8ZhD0gMsvr1tFZLu8PtxepL9Y217yJxr7gcIB2igPR9%2FRYpGah3Vaz%2FMVU%2FGFn3Dk6JLu6HWjV6CBYBDc2v6dUUWluDQ1I2xGvA%3D%3D",
     "product_name": "RTX 3080 Asus TUF"
   },
-  "B08HR6FMF3": {
-    "product_name": "EVGA 10G-P5-3881-KR GeForce RTX 3080"
-  },
-  "B08HR5SXPS": {
-    "product_name": "MSI Gaming GeForce RTX 3080 10GB"
-  },
-  "B08HR55YB5": {
+  {
+    "asin": "B08HR55YB5",
+    "offer_id": "q6%2Fx8RDasNMaWDnvk68jXytcA4R9MP1wT8zyGeN44YD3B4OqJmLwlSwF7tXNhtMQ66%2BjijhZfV%2FUbVOEnF%2FTnQvavBNZxIPqpqz1ZQg76EVtlKKUneNOhxLK8Gupy1xHKNhm9UExRK3XTJWvXUD4f2kYphQQWY%2BSIca8rhlqwxmuaEqI5jdp0w%3D%3D",
     "product_name": "EVGA 10G-P5-3885-KR GeForce RTX 3080 XC3 ULTRA GAMING, 10GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate"
   },
-  "B08HBTJMLJ": {
+  {
+    "asin": "B08HBTJMLJ",
+    "offer_id": "IqTtyhZLepoT4xg548iS1Fl80ao58A2eMGuqO8I3m8%2BoVDjoCX8l7Q9jr6vjnXiZ26Lm35RAtRwaTnfzz4FzHJN8XNveP7Iwmb5ymLs%2BCi3mqQXvJk5NmXP0Q3gTWwc4pOHEwMdh3CP%2Fqng7KEXA%2Fg%3D%3D",
     "product_name": "PNY GeForce RTX 3080 10GB XLR8 Gaming UPRISING EPIC-X RGB Triple Fan Graphics Card"
   },
-  "B08KGZVKXM": {
+  {
+    "asin": "B08KGZVKXM",
+    "offer_id": "i13jO8XWJcLClMFrVOoSdWYExZSaM%2B6cuvLysAmRb%2FevSU3hCDt2zgyiiGH%2FeSH8z%2FbvMkxScUzrmwCWVOaDqLPjS6%2BtJAlMziLVzd%2BHN%2F6akJlDOTGHnMnMG4oMUdVeE%2BP1YIUbMFs3qLR1lRbLAQ%3D%3D",
     "product_name": "GIGABYTE GeForce RTX 3080 Vision OC 10G Graphics Card, 3X WINDFORCE Fans, 10GB 320-bit GDDR6X, GV-N3080VISION OC-10GD Video Card"
   },
-  "B08HR7SV3M": {
+  {
+    "asin": "B08HR7SV3M",
+    "offer_id": "",
     "product_name": "MSI Gaming GeForce RTX 3080 10GB GDRR6X 320-Bit HDMI/DP Nvlink Tri-Frozr 2 Ampere Architecture OC Graphics Card (RTX 3080 GAMING X TRIO 10G)"
   },
-  "B08TX5GHGN": {
+  {
+    "asin": "B08TX5GHGN",
+    "offer_id": "",
     "product_name": "AORUS RTX 3080 Gaming Box External Graphics Card, WATERFORCE All-in-one Cooling System, Thunderbolt 3, GV-N3080IXEB-10GD"
   },
-  "B083GT4CY2": {
+  {
+    "asin": "B083GT4CY2",
+    "offer_id": "",
     "product_name": "GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080AORUSX WB-10GD Video Card"
   },
 
-
-
-  "B08J5F3G18": {
+  {
+    "asin": "B08J5F3G18",
+    "offer_id": "e3pKdxQmERPtu%2BsBelGk5yJNhMUZPQ8r%2BFkvkmHKKUu5xKhmjLhXOgcH1UWhH%2BJ4vronuzlIoxhPPE%2FNIMIHMnLqq0XpXp7HjzH6Z8jqwXMEs91jCv3liZ4O1uiKRak4hUmgjveecbSw4FGvmINF1A%3D%3D",
     "product_name": "EVGA RTX 3090 FTW3 ULTRA GAMING"
   },
-  "B08HJQ182D": {
+  {
+    "asin": "B08HJQ182D",
+    "offer_id": "jRNhGIU4BREDQRH23Vg94s84c1AaDmg9alh8jRoPyc1QYzZdEyFi0a0KtfFVX8pj1%2FkwK5Ur12Oow5uYEe5skk7sxfvfeAeiN5swMqJ0eFH17TApgZrHrWLxop6JUMwm7P8rCD6r8DfFq12bydI3Ww%3D%3D",
     "product_name": "Zotac Gaming RTX 3090 Trinity"
   },
-  "B08J61SS5R": {
+  {
+    "asin": "B08J61SS5R",
+    "offer_id": "15H1t73I3mtgBwuDaKPJ3BYAVG%2Be%2BeOb3KECnZDT9SGrSGy46M37ZVSiLvhRI%2FlTM4gKAmtv5iZTFtQOFv28HNt%2F7i3jF%2FFrVzsEUTM6ecFvNCcWgXaH30%2BedC%2BO%2B5XliqkIajwyWTWT%2BlBpL%2F%2Bahg%3D%3D",
     "product_name": "EVGA 24G-P5-3975-KR RTX 3090 XC3"
   },
-  "B083GS45CR": {
+  {
+    "asin": "B083GS45CR",
+    "offer_id": "NNU%2BqEfAAKhNbxo8A1XQMecmuxqmZGj4NdP1k1deBARsfU4jusmUabmWWY1fxLiYlZfod5CYTytY2KfOQ%2BWWcP4sFaWC0l7qIIaeC40OylbItB371vqr%2BhOxSGTXup2m9iMWX2pYAqkMcWY73Yh8Qw%3D%3D",
     "product_name": "Gigabyte Geforce RTX 3090 Vision"
   },
-  "B08HJRF2CN": {
+  {
+    "asin": "B08HJRF2CN",
+    "offer_id": "",
     "product_name": "Gigabyte RTX 3090 Gaming OC 3X windforce"
   },
-  "B08KTWVHQP": {
+  {
+    "asin": "B08KTWVHQP",
+    "offer_id": "",
     "product_name": "Gigabyte AORUS RTX 3090 Xtreme"
   },
-  "B08HRBW6VB": {
+  {
+    "asin": "B08HRBW6VB",
+    "offer_id": "1knnscVStcWT5TEYvXvH3gsmlFujTj5gQ4Lxh5a1909NlIGZEsr7a96xe71WapFD3tfNUDJcVpqZgTSZQSO%2BJ5sLB9H1TKlacDOHIyecNdlf7YRIf2N8hw%3D%3D",
     "product_name": "MSI gaming RTX 3090 Tri-Frozer"
   },
-  "B08NNKHVP3": {
+  {
+    "asin": "B08NNKHVP3",
+    "offer_id": "M%2Fldl8tXHG28tZ51vE6WtYMt3UfzOsH%2Bc4ANlbDNBLOCFJXB0tWEECuJe%2B93kOMJWCyXeY%2Fh%2BhDjwXwQaQvDPE4SwKJ0US7RBqHtq%2BJtMazQMVR71Saaz3WJXrBLAF%2BRaAVmEQo08%2BA42FtjDbCIiA%3D%3D",
     "product_name": "MSI gaming RTX 3090 Ventus 3X"
   },
-
-  
-
-  "B08164VTWH": {
-    "product_name": "AM Ryzen 5900x"
-  },
-  "B08PS2F9RD": {
-    "product_name": "Pokemon TCG: Shining Fates Elite Trainer Box"
+  {
+    "asin": "B08R133PYZ",
+    "offer_id": "t%2Fmg2kqyQLpdVLUFzm5ZG%2BCd9ebMxmETzWdnsplsvarkFCbZRPX0YL9jRvSzG8f2g8jvZ1oz3mDaMe%2BQY1Fhbjm%2FXWpyIHFch8IQc80mobZ%2BXMMymxE0biqbrQKoZdluToT6fN8rF%2FRPf%2F7LtMFIvw%3D%3D",
+    "product_name": "ASUS ROG Strix NVIDIA GeForce RTX 3090 White OC Edition"
   }
-}
+]
