@@ -7,9 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strings"
 	"sync"
-	"time"
 
 	"github.com/gorilla/websocket"
 )
@@ -59,7 +57,6 @@ func AzClient(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fileLog.Println("client connected")
 	log.Println("client connected")
 
 	ch := make(chan SendData)
@@ -72,13 +69,11 @@ func AzClient(w http.ResponseWriter, r *http.Request) {
 		case msg := <-ch:
 			json, err := json.Marshal(msg)
 			if err != nil {
-				fileLog.Println(err)
 				log.Println(err)
 				return
 			}
 			err = c.WriteMessage(websocket.BinaryMessage, []byte(json))
 			if err != nil {
-				fileLog.Println(err)
 				log.Println(err)
 				return
 			}
@@ -93,7 +88,6 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 var pxyList []string
 var links []string
-var fileLog *log.Logger
 
 func getPort() string {
 	port := os.Getenv("PORT")
@@ -110,16 +104,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	t := time.Now()
-	logPath := "./logs/" + t.Format("2006-01-02T15:04:05")
-	logPath = strings.ReplaceAll(logPath, ":", ";")
-	x, err := os.OpenFile(logPath, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0777)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fileLog = log.New(x, "", log.LstdFlags)
-	log.Println("Created log " + logPath)
 
 	f, err := os.Open("proxy.txt")
 	if err != nil {
@@ -145,11 +129,10 @@ func main() {
 
 	port := getPort()
 
-	go monitor()
+	go monitorMobileATC()
 
 	http.HandleFunc("/", home)
 	http.HandleFunc("/amazon", AzClient)
 	log.Println("listening on ", port)
-	fileLog.Println("listening on ", port)
 	log.Fatal(http.ListenAndServe((":" + port), nil))
 }
